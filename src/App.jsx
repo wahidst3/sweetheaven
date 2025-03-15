@@ -18,26 +18,26 @@ import Offer1 from './components/Offer1'
 import Footer from './components/Footer'
 import CustomOrderSteps from './components/CustomOrder'
 import BehindTheScenes from './components/Bts'
+import Homepage from './pages/Homepage'
+import AboutUs from './pages/AboutUs'
 
 function App() {
 
  
 
-  return (<>
+  return (
     <div className='bg-[#F5E6D3] h-full w-full overflow-hidden'>
       <Nav />
-   <Hero/>
-   <Featured />
-   <Offer1 />
+  
+   <Homepage/>
+   {/* <AboutUs/> */}
+   <Footer/>
     </div>
   
-      <Testimonials />
-      {/* <Cta/>s */}
-      <CustomOrderSteps/>
-      <BehindTheScenes/>
-    <Footer/>
+    
    
-    </>
+   
+   
   )
 }
 
